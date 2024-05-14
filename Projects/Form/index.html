@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1> Your Weight In Different Planets </h1>
+
+    <div class ="bg-img">
+        <form id="weightForm" class="container">
+            <label for="weight"> Enter Your Weight in Kg</label>
+            <input id="weight" type="text" placeholder="Please Enter"><br>
+    
+            <label for="planets"> Choose a planet</label><br>
+            <select id="planets" name="planets">
+                <option value="earth"> Earth </option>
+                <option value="mars"> Mars </option>
+                <option value="mercury"> Mercury </option>
+                <option value="venus"> Venus </option>
+                <option value="jupiter"> Jupiter</option>
+                <option value="uranus"> Uranus </option>
+                <option value="neptune"> Neptune </option>
+                <option value="saturn"> Saturn </option>
+            </select>
+    
+            <input type="submit" value="Submit">
+            <button id="reset" type="button"> Reset</button>
+
+            <div id="result"></div>
+            
+        </form>
+
+    </div>
+
+    <div>
+        <a href="../../index.html"><button type="button"> Portfolio</button></a>
+    </div>
+    
+
+ 
+    
+    
+    
+</body>
+<script src="planetCalc.js"></script>
+</html>
